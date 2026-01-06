@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 #Dados        
-car_data = pd.read_csv('/home/mandsmartins/Documentos/Projeto sprint 5/projeto_sprint5/vehicles.csv') 
+car_data = pd.read_csv('vehicles.csv') 
 
 #Cabeçalho
 st.header('Dashboard de Análise de Veículos')
@@ -30,4 +30,3 @@ if scatter_button:
     )
     st.plotly_chart(fig_scatter, use_countainer_width=True)
 
-    
