@@ -1,2 +1,15 @@
 # projeto_sprint5
-Projeto do sprint 5, criar e gerenciar ambientes virtuais de Python, desenvolver um aplicativo web e implantá-lo em um serviço de nuvem que o tornará acessível ao público.
+Este projeto consiste no desenvolvimento de um aplicativo web interativo utilizando Streamlit para análise de dados de anúncios de veículos.
+
+## Funcionalidades
+- Visualização de histograma da quilometragem do veículos
+- Gráfico de dispersão entre preço e quilometragem
+- Interação por meio de botões
+
+## Tecnologias utilizadas
+- Python
+- Streamlit
+- Pandas
+- Plotly
+
+O aplicativo foi preparado para deploy em um serviço de nuvem.
